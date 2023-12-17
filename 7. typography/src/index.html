@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Typography - TailwindCSS</title>
+        <link rel="stylesheet" href="../dist/output.css">
+    </head>
+    <body>
+        <div class="px-3 py-4 bg-blue-300">
+            <p class="text-lg font-sans font-bold">Font Sans</p>
+            <p class="text-xl font-serif font-bold">Font Serif</p>
+            <p class="text-sm font-mono font-bold">Font Mono</p>
+        </div>
+        <!-- Size -->
+        <div class="px-3 py-4 my-2 bg-slate-500">
+            <p class="text-xs font-semibold">Hello World</p>
+            <p class="text-sm font-semibold">Hello World</p>
+            <p class="text-base font-semibold">Hello World</p>
+            <p class="text-lg font-extrabold">Hello World</p>
+            <p class="text-xl font-black">Hello World</p>
+            <p class="text-2xl font-semibold">Hello World</p>
+        </div>
+        <!-- weight -->
+        <div class="my-2 px-3 py-4 bg-red-400 text-center">
+            <p class="font-mono text-xl p-4 bg-gray-300 font-medium">Testing font style and weight</p>
+            <p class="font-mono text-xl p-4 bg-gray-400 font-thin">Testing font style and weight</p>
+            <p class="font-mono text-xl p-4 bg-gray-500 italic font-semibold">Testing font style and weight</p>
+        </div>
+        <!-- letter spacing and line height -->
+        <div class="my-2 px-3 py-4 bg-green-400 text-center">
+            <p class="font-sans text-xl p-4 bg-purple-300 tracking-wider leading-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime dolore vero ipsum aliquid quasi voluptatum velit quo, incidunt explicabo?</p>
+            <p class="font-sans text-xl p-4 bg-purple-400 tracking-tighter leading-tight">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, a quidem quasi error eligendi suscipit! Ratione officia dignissimos illo culpa, recusandae tenetur!</p>
+            <p class="font-sans text-xl p-4 bg-purple-500 tracking-widest leading-loose">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti fugit officia consectetur sapiente veniam, quidem, illo aliquid itaque ad animi commodi. Similique reiciendis exercitationem maxime nobis.</p>
+        </div>
+        <!-- List type -->
+        <ul class="list-disc bg-orange-400 my-2 mx-5 p-2 font-semibold">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <ul class="list-disc bg-orange-600 my-2 mx-5 p-2 list-inside font-medium">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+        </ul>
+        <!-- Placeholder -->
+        <div class="my-2 p-4 flex flex-col">
+            <input type="text" placeholder="placeholder text" class="bg-gray-200 my-2 px-2 py-1 placeholder-blue-600 font-bold">
+            <input type="text" placeholder="placeholder text" class="bg-gray-200 my-2 px-2 py-1 placeholder-blue-600 font-bold placeholder-opacity-50">
+            <p class="border-red-500 border-2 rounded font-semibold font-mono text-red-700 bg-red-200 px-3 py-1 text-center">Alert message</p>
+        </div>
+    </body>
+</html>
