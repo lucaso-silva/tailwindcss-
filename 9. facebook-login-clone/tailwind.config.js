@@ -11,7 +11,8 @@ module.exports = {
         '980px': '980px'
       },
       fontSize: {
-        'subtitle': '1.7rem'
+        'subtitle': '1.7rem',
+        '0.915rem': '0.915rem'
       },
       colors: {
         'main-gray': '#F0F2F5',
