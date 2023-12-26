@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        'arial': 'Arial'
+      },
       colors: {
         'dark-blue-500': '#485769',
         'dark-blue-600': '#37475A',
@@ -12,6 +15,11 @@ module.exports = {
         'orange-650': '#E47911',
         'gold-100': '#FEBD69',
         'gold-200': '#FAA63A'
+      },
+      spacing: {
+        '7': '1.75rem',
+        '75px': '75px',
+        '210px': '210px'
       }
     },  
   },

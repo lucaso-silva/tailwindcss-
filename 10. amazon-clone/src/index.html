@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../dist/output.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
-    <body>
+    <body class="font-arial">
         <header>
             <div class="grid text-white">
                 <!-- HEADER SUPERIOR -->
@@ -245,9 +245,137 @@
                 </div>
                 <!-- MAIN CONTENT -->
                 <div class="col-span-6 md:col-span-5 p-2">
-                    <div class="hidden md:block">
-                        <a href="#"><img src="../src/img/GOGA-AFR-KBHP-desktop-1500x300-CA-ENG.jpg" alt="Promo"></a>
-                    </div>
+                    <div class="flex flex-col">
+                        <div class="hidden md:block my-2">
+                            <a href="#"><img src="../src/img/banner.jpg" alt="Banner Offer"></a>    
+                        </div>
+                        <div class="flex flex-col px-6 pb-8 border-b border-gray-300">
+                            <h3 class="text-center md:text-left text-xl md:text-xl font-bold my-6">Featured Categories</h3>
+                            <ul class="flex flex-wrap md:flex-nowrap px-2 text-xs font-bold">
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat1.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">All Deals</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat2.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Flash Offer</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat3.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Literature</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat4.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Comics & Graphic</a>
+                                </li>   
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat5.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Fiction</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat6.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Foreign Language</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat7.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Health and Wellness</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat8.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Children's</a>
+                                </li>
+                                <li class="text-center mx-3 bb-4 md:mb-0">
+                                    <img src="../src/img/cat9.jpg" alt="Image about category" class="rounded w-full md:w-75px mb-2 mx-auto">
+                                    <a href="#">Business</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- PRODUCTS -->
+                        <div class="flex flex-col">
+                            <div class="flex justify-between py-2 px-4 text-sm">
+                                <p>Showing 1-32 from 122 Results</p>
+                                <div class="flex md:flex-none">
+                                    <span>Order by</span>
+                                    <select name="" id="" class="bg-gray-300 pr-4 md:pr-12 ml-3 rounded-sm border-gray-600 text-xs px-1">
+                                        <option value="">Rate</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="flex flex-wrap border-gray-300 divide-x divide-gray-300 mb-10">
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/all-the-light.jpg" alt="Book All the Light We Cannot See" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$19.04</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$25.99</span> (27% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">All the Light We Cannot See</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/atomic-habits_.jpg" alt="Book Atomic Habits" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$23.33</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$36.00</span> (35% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">Atomic Habits: An Easy...</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/guinness-book.jpg" alt="Guinness World Records 2024" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$20.00</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$36.95</span> (46% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">Guinness World Records 2024</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/hello-beautiful.jpg" alt="Hello Beautiful" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$17.00</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$26.00</span> (35% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">Hello Beautiful</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/ice-and-fire.jpg" alt="Book The World of Fire & Ice" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">67.87$</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$78.99</span> (14% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">The World of Fire & Ice</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/lessons-in-chemistry.jpg" alt="Book Lessons in Chemistry" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$17.71</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$24.95</span> (29% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">Lessons in Chemistry</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/power.jpg" alt="Book The 48 Laws of Power" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$23.61</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$35.00</span> (33% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">The 48 Laws of Power</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+    
+                                <div class="w-1/2 md:w-1/4 flex flex-col p-8 py-4 border-b border-gray-300">
+                                    <img src="../src/img/the-psychology-of-money.jpg" alt="Book The Psychology of Money: Timeless of wealth, greed, and happiness" class="h-210px place-self-center p-2">
+                                    <p class="text-red-700 mt-10">$17.18</p>
+                                    <p class="text-sm mb-2">List Price: <span class="line-through">$24.99</span> (31% Off)</p>
+                                    <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650 mb-2">The Psychology of Money</a>
+                                    <p class="text-sm mb-8">Exclusive offer <a href="#" class="text-sm text-blue-600 hover:underline hover:text-orange-650">Amazon Prime</a> membership.</p>
+                                    <button class="text-xs bg-gray-200 border border-gray-600 rounded-sm py-1">See more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
                 </div>
             </div>
         </main>  
